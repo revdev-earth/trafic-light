@@ -110,7 +110,7 @@ export default function TrafficLight() {
 
       <div className='configurable'>
         <div>
-          <h3>Timer: {time}</h3>
+          <h3>Timer: {time === -1 ? '0' : time}</h3>
         </div>
 
         <div className='fields'>
